@@ -21,7 +21,7 @@ body {
 main {
     /* position: relative;
     Irei usar a propriedade display flex */
-    display: flex;
+    display: flex; 
     justify-content: center;
     height: 100vh;
 }
@@ -34,7 +34,15 @@ section#telefone {
     Irei usar a propriedade display flex */
     display: flex;
     align-self: center;
+    justify-content: center;    
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela {
+    display: flex;
+    align-self: center;
+    width: 267px;
+    height: 474px;
 }
